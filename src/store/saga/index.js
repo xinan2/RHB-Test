@@ -1,11 +1,11 @@
 import { all, call, spawn } from 'redux-saga/effects';
 
-import loginSaga from './LoginSaga';
+import repoSaga from './RepoSaga';
 
 
 export default function* rootSaga() {
     const sagas = [
-        loginSaga,
+      repoSaga,
     ];
   
     yield all(

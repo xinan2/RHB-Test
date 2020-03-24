@@ -1,0 +1,4 @@
+@font-face {
+  font-family: 'SegoeUI';
+  src: local('SegoeUI'), url(./assets/fonts/SegoeUI.ttf) format('truetype');
+}

@@ -3,7 +3,8 @@ import { Provider } from 'react-redux';
 import ReactDOM from 'react-dom';
 import App from './route';
 import * as serviceWorker from './serviceWorker';
-import configureStore from './store/configureStore'
+import configureStore from './store/configureStore';
+import './assets/fonts/SegoeUI.ttf'
 
 const store = configureStore()
 
